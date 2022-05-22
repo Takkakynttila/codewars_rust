@@ -7,6 +7,6 @@ fn main() {
     fn greet(name: &str) -> String {
         return format!("Hello, {} how are you doing today?", name);
     }
-    let x = greet("Tatu");
+    let x = greet("Jorge");
     println!("{}", x);
 }
